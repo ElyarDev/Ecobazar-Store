@@ -98,3 +98,26 @@
     font-size: 14px;
     text-align: center;
 }
+
+// NAV LINKS 
+.nav__links {
+    padding: 1.5rem 0;
+    background-color: black;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: start;
+    gap: 3rem;
+    font-size: 1.7em;
+    font-weight: 500;
+
+    li {
+        list-style: none;
+    }
+
+    li a {
+        color: $color-white;
+        text-decoration: none;
+    }
+}

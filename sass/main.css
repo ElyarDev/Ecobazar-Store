@@ -222,6 +222,26 @@ h1 {
   text-align: center;
 }
 
+.nav__links {
+  padding: 1.5rem 0;
+  background-color: black;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: start;
+  gap: 3rem;
+  font-size: 1.7em;
+  font-weight: 500;
+}
+.nav__list li {
+  list-style: none;
+}
+.nav__list li a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
 .features {
   padding: 9.6rem 2rem 0 2rem;
 }

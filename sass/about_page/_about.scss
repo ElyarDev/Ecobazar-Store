@@ -1,0 +1,30 @@
+.about {
+    padding: 8rem 2rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3.5rem;
+
+    &__text-box {
+        display: flex;
+        flex-direction: column;
+        gap: 3.5rem;
+    }
+
+    &__title {
+        font-size: 5.6rem;
+        font-weight: 600;
+        color: black;
+    }
+
+    &__description {
+        font-size: 1.8rem;
+        color: #666666;
+        line-height: 1.8;
+    }
+
+    &__img {
+        width: 70rem;
+        height: auto;
+        box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.25) 0px 25px 50px -12px
+    }
+}

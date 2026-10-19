@@ -13,7 +13,6 @@ html {
 
 body {
   font-family: "inter", sans-serif;
-  height: 10000px;
 }
 
 .container {
@@ -492,4 +491,42 @@ h1 {
   height: 18rem;
   box-shadow: 15px 51px 45px -35px rgba(0, 0, 0, 0.2);
   border-radius: 1rem;
+}
+
+.footer {
+  margin: 9.6rem 0 0 0;
+  background-color: black;
+}
+.footer__box {
+  padding: 5.6rem 2rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+  gap: 3.5rem;
+}
+.footer__description {
+  font-size: 1.4rem;
+  color: #808080;
+  margin: 3rem 0;
+}
+.footer__nav {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+.footer__title {
+  font-size: 2rem;
+  color: #FFFFFF;
+}
+.footer__list {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  font-size: 1.6rem;
+}
+.footer__list li {
+  list-style: none;
+}
+.footer__list li a {
+  text-decoration: none;
+  color: #999999;
 }/*# sourceMappingURL=main.css.map */

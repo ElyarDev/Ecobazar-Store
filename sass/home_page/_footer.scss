@@ -1,0 +1,45 @@
+.footer {
+    margin: 9.6rem 0 0 0;
+    background-color: black;
+
+    &__box {
+        padding: 5.6rem 2rem;
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+        gap: 3.5rem;
+    }
+
+    &__description {
+        font-size: 1.4rem;
+        color: #808080;
+        margin: 3rem 0;
+    }
+
+    &__nav {
+        display: flex;
+        flex-direction: column;
+        gap: 2.4rem;
+    }
+
+    &__title {
+        font-size: 2rem;
+        color: $color-white;
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        font-size: 1.6rem;
+
+        li {
+            list-style: none;
+        }
+
+        li a {
+            text-decoration: none;
+            color: #999999;
+        }
+
+    }
+}

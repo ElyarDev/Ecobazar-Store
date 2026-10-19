@@ -1,0 +1,59 @@
+// VARIABLES
+$color-primary: #00B207;
+$color-primary-soft: #84D187;
+$color-primary-hard: #2C742F;
+
+$color-green-gray-1: #1A1A1A;
+$color-green-gray-2: #002603;
+$color-green-gray-3: #173B1A;
+$color-green-gray-4: #2B572E;
+$color-green-gray-5: #406B42;
+$color-green-gray-6: #618062;
+$color-green-gray-7: #7A997C;
+$color-green-gray-8: #96B297;
+$color-green-gray-9: #B4CCB4;
+$color-green-gray-10: #DAE5DA;
+
+$color-warning: #FF8A00;
+$color-danger: #EA4B48;
+$color-white: #FFFFFF;
+
+
+
+
+// GENERAL
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "inter", sans-serif;
+    height: 10000px;
+}
+
+// CONTAINER
+.container {
+    max-width: 130rem;
+    margin: 0 auto;
+}
+
+// SECTION TOP
+.section-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3.6rem;
+
+    p {
+        font-size: 3.2rem;
+        font-weight: 500;
+    }
+}

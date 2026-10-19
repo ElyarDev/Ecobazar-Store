@@ -1,0 +1,13 @@
+.client {
+    padding: 8rem 2rem 0 2rem;
+
+    &__box {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    &__img {
+        width: 10rem;
+        height: auto;
+    }
+}

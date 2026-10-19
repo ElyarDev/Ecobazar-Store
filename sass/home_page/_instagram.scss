@@ -1,0 +1,16 @@
+.instagram {
+    padding: 9.6rem 2rem 0;
+
+    &__box {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 3.5rem;
+    }
+
+    img {
+        width: 18rem;
+        height: 18rem;
+        box-shadow: 15px 51px 45px -35px rgba(0, 0, 0, 0.2);
+        border-radius: 1rem;
+    }
+}

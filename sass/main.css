@@ -699,4 +699,342 @@ h1 {
 .member__lastname {
   font-size: 1.4rem;
   color: #808080;
+}
+
+.login {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+}
+.login__container {
+  width: 100%;
+  max-width: 78rem;
+  padding: 5rem 4rem 4.5rem;
+  border: 1px solid #ddd;
+  border-radius: 1.5rem;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.06);
+}
+.login__header {
+  text-align: center;
+  margin-bottom: 4.5rem;
+}
+.login__title {
+  color: #17113d;
+  font-size: 5rem;
+  font-weight: 700;
+  margin-bottom: 1.8rem;
+}
+.login__description {
+  color: #777;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+.login__form {
+  width: 100%;
+}
+.login__field {
+  margin-bottom: 2rem;
+}
+.login__field--error .login__input-wrapper {
+  border-color: #b76b6b;
+}
+.login__input-wrapper {
+  width: 100%;
+  height: 6.5rem;
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 1.4rem;
+  transition: border-color 0.2s ease;
+}
+.login__input-wrapper:focus-within {
+  border-color: #84D187;
+}
+.login__input {
+  width: 100%;
+  height: 100%;
+  padding: 0 2.5rem;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #333;
+  font-size: 2rem;
+}
+.login__input::-moz-placeholder {
+  color: #777;
+}
+.login__input::placeholder {
+  color: #777;
+}
+.login__error {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1.2rem;
+  color: #a45d5d;
+  font-size: 1.8rem;
+  line-height: 1.4;
+}
+.login__error i {
+  font-size: 1.8rem;
+}
+.login__password-toggle {
+  flex-shrink: 0;
+  margin-right: 2rem;
+  border: none;
+  background: transparent;
+  color: #777;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.login__options {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem 0 3.5rem;
+}
+.login__remember {
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+  cursor: pointer;
+  font-size: 2rem;
+}
+.login__checkbox {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  width: 2.8rem;
+  height: 2.8rem;
+  border: 2px solid #aaa;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  position: relative;
+}
+.login__checkbox:checked {
+  background-color: #00B207;
+  border-color: #84D187;
+}
+.login__checkbox:checked::after {
+  content: "✓";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 1.8rem;
+}
+.login__forgot-link {
+  color: #555;
+  font-size: 2rem;
+  text-decoration: none;
+}
+.login__forgot-link:hover {
+  text-decoration: underline;
+}
+.login__button {
+  width: 100%;
+  height: 6.5rem;
+  border: none;
+  border-radius: 1.4rem;
+  background-color: #84D187;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+.login__button:hover {
+  background-color: #00B207;
+}
+.login__button:active {
+  transform: scale(0.99);
+}
+.login__register {
+  margin-top: 2.5rem;
+  text-align: center;
+  color: #555;
+  font-size: 2rem;
+}
+.login__register-link {
+  margin-left: 0.5rem;
+  color: #00B207;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+@media (max-width: 37.5em) {
+  .login {
+    padding: 1.5rem;
+  }
+  .login__container {
+    padding: 3.5rem 2rem 3rem;
+  }
+  .login__title {
+    font-size: 3.8rem;
+  }
+  .login__description {
+    font-size: 1.6rem;
+  }
+  .login__input-wrapper {
+    height: 5.8rem;
+  }
+  .login__input {
+    font-size: 1.7rem;
+  }
+  .login__error {
+    font-size: 1.4rem;
+  }
+  .login__options {
+    gap: 1rem;
+  }
+  .login__remember, .login__forgot-link {
+    font-size: 1.5rem;
+  }
+  .login__checkbox {
+    width: 2.3rem;
+    height: 2.3rem;
+  }
+  .login__button {
+    height: 5.8rem;
+  }
+  .login__register {
+    font-size: 1.6rem;
+  }
+}
+.signup {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+}
+.signup__container {
+  width: 100%;
+  max-width: 66rem;
+  padding: 4.5rem 3.5rem 3.5rem;
+  border: 1px solid #ddd;
+  border-radius: 1.5rem;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.05);
+}
+.signup__header {
+  text-align: center;
+  margin-bottom: 3.8rem;
+}
+.signup__title {
+  color: #17113d;
+  font-size: 4.5rem;
+  font-weight: 700;
+  margin-bottom: 1.8rem;
+}
+.signup__description {
+  color: #777;
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+.signup__form {
+  width: 100%;
+}
+.signup__field {
+  margin-bottom: 1.8rem;
+}
+.signup__input-wrapper {
+  width: 100%;
+  height: 5.8rem;
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 1.2rem;
+  transition: border-color 0.2s ease;
+}
+.signup__input-wrapper:focus-within {
+  border-color: #84D187;
+}
+.signup__input {
+  width: 100%;
+  height: 100%;
+  padding: 0 2rem;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #333;
+  font-size: 1.7rem;
+}
+.signup__input::-moz-placeholder {
+  color: #777;
+}
+.signup__input::placeholder {
+  color: #777;
+}
+.signup__input--password {
+  padding-right: 0;
+}
+.signup__password-toggle {
+  flex-shrink: 0;
+  margin-right: 1.8rem;
+  border: none;
+  background: transparent;
+  color: #777;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+.signup__button {
+  width: 100%;
+  height: 5.8rem;
+  margin-top: 0.5rem;
+  border: none;
+  border-radius: 10rem;
+  background-color: #84D187;
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+.signup__button:hover {
+  background-color: #00B207;
+}
+.signup__button:active {
+  transform: scale(0.99);
+}
+.signup__login {
+  margin-top: 2.3rem;
+  text-align: center;
+  color: #666;
+  font-size: 1.7rem;
+}
+.signup__login-link {
+  margin-left: 0.4rem;
+  color: #00B207;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+@media (max-width: 37.5em) {
+  .signup {
+    padding: 1.5rem;
+  }
+  .signup__container {
+    padding: 3.5rem 2rem 3rem;
+  }
+  .signup__title {
+    font-size: 3.6rem;
+  }
+  .signup__description {
+    font-size: 1.5rem;
+  }
+  .signup__input-wrapper {
+    height: 5.5rem;
+  }
+  .signup__input {
+    font-size: 1.6rem;
+  }
+  .signup__button {
+    height: 5.5rem;
+  }
+  .signup__login {
+    font-size: 1.5rem;
+  }
 }/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecobazar || Home</title>
+    <!-- icon  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <!-- css  -->
+    <link rel="stylesheet" href="sass/main.css">
+</head>
+
+<body>
+    <!-- start login  -->
+    <main class="login">
+        <div class="login__container">
+            <!-- Header -->
+            <header class="login__header">
+                <h1 class="login__title">
+                    Sign In
+                </h1>
+
+                <p class="login__description">
+                    Please enter your information to proceed with login.
+                </p>
+            </header>
+
+            <form class="login__form">
+                <div class="login__field login__field--error">
+                    <div class="login__input-wrapper">
+                        <input class="login__input" type="text" placeholder="Email">
+                    </div>
+                </div>
+
+                <div class="login__field">
+                    <div class="login__input-wrapper">
+                        <input class="login__input" type="password" id="password" placeholder="Password">
+
+                        <button class="login__password-toggle" type="button" id="password-toggle"
+                            aria-label="Show password">
+                            <i class="fa-regular fa-eye"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="login__options">
+
+                    <label class="login__remember">
+
+                        <input class="login__checkbox" type="checkbox">
+
+                        <span class="login__remember-text">
+                            Remember Me
+                        </span>
+
+                    </label>
+
+
+                    <a class="login__forgot-link" href="forget-password.html">
+                        Forgot Password?
+                    </a>
+
+                </div>
+
+
+                <!-- Submit -->
+                <button class="login__button" type="submit">
+                    Login
+                </button>
+
+            </form>
+
+
+            <!-- Register -->
+            <p class="login__register">
+
+                Not a member yet?
+
+                <a class="login__register-link" href="signup.html">
+                    Register Now
+                </a>
+
+            </p>
+
+        </div>
+
+    </main>
+    <!-- end login  -->
+</body>
+
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecobazar || Home</title>
+    <!-- icon  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <!-- css  -->
+    <link rel="stylesheet" href="sass/main.css">
+</head>
+
+<body>
+    <!-- start sign up  -->
+    <main class="signup">
+        <div class="signup__container">
+            <!-- Header -->
+            <header class="signup__header">
+                <h1 class="signup__title">
+                    Create Account
+                </h1>
+
+                <p class="signup__description">
+                    Please enter your details to create a new account.
+                </p>
+            </header>
+
+            <!-- Form -->
+            <form class="signup__form">
+                <!-- Username -->
+                <div class="signup__field">
+                    <div class="signup__input-wrapper">
+                        <input class="signup__input" type="text" placeholder="UseName" required>
+                    </div>
+                </div>
+
+                <div class="signup__field">
+                    <div class="signup__input-wrapper">
+                        <input class="signup__input" type="email" placeholder="Email" required>
+                    </div>
+                </div>
+
+                <div class="signup__field">
+                    <div class="signup__input-wrapper">
+                        <input class="signup__input signup__input--password" type="password" id="signup-password"
+                            placeholder="Password" required>
+
+                        <button class="signup__password-toggle" type="button" id="signup-password-toggle">
+                            <i class="fa-regular fa-eye"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="signup__field">
+                    <div class="signup__input-wrapper">
+                        <input class="signup__input" type="password" id="signup-repeat-password"
+                            placeholder="Repeat Password" required>
+                    </div>
+                </div>
+
+                <button class="signup__button" type="submit">
+                    Create Account
+                </button>
+            </form>
+
+            <p class="signup__login">
+                Are you a member?
+
+                <a class="signup__login-link" href="login.html">
+                    Login Now
+                </a>
+            </p>
+        </div>
+    </main>
+    <!-- end sign up  -->
+</body>
+
+</html>

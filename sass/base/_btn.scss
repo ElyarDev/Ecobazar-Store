@@ -3,10 +3,11 @@
     outline: none;
     color: $color-primary;
     transition: all 0.3s;
+    border: none;
     cursor: pointer;
 
     &--full {
-        background-color: $color-white;
+        background-color: $color-primary-soft;
         padding: 1.2rem 4rem;
         border-radius: 3rem;
         font-size: 1.6rem;

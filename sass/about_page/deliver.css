@@ -1,0 +1,15 @@
+.deliver {
+  padding: 12.8rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6rem;
+}
+.deliver__text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.deliver__img {
+  width: 100%;
+}/*# sourceMappingURL=deliver.css.map */

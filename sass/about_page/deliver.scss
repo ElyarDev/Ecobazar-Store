@@ -1,0 +1,17 @@
+.deliver {
+    padding: 12.8rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6rem;
+
+    &__text-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__img {
+        width: 100%;
+    }
+}

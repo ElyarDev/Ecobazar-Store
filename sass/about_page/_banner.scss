@@ -1,5 +1,5 @@
 .banner {
-    padding: 12.8rem 0;
+    padding: 12.8rem 0 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
 
@@ -16,5 +16,48 @@
         flex-direction: column;
         gap: 3.5rem;
         width: 70%;
+    }
+
+    &__icon-box {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+
+    &__icon {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+
+        &-container {
+            background-color: $color-primary-soft;
+            padding: 1.8rem;
+            border-radius: 100rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            i {
+                font-size: 2rem;
+                color: $color-primary-hard;
+            }
+        }
+
+        &__text-box {
+            display: flex;
+            flex-direction: column;
+            gap: 0.8rem;
+            font-weight: 400;
+
+            span {
+                font-size: 1.8rem;
+                font-weight: 600;
+            }
+
+            p {
+                font-size: 1.4rem;
+                color: #808080;
+            }
+        }
     }
 }
